@@ -90,6 +90,7 @@ body, ul {
   }
 
   #ul-list{
+    list-style: none;
     text-align: center;
     color: whitesmoke;
     font-family: 'Rockwell';
@@ -108,7 +109,7 @@ body, ul {
     text-align: center;
     color: whitesmoke;
     font-family: 'Rockwell';
-
+    list-style: none;
   }  
   
   footer {
