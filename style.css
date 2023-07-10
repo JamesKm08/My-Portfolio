@@ -90,8 +90,9 @@ body, ul {
   }
 
   #ul-list{
-    list-style: none;
+    text-align: center;
     color: whitesmoke;
+    font-family: 'Rockwell';
   }
 
   #nested-skills-list{
