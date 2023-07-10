@@ -1,0 +1,122 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+  }
+  
+  /* Style the header and navigation */
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 18px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fd7d15;
+    text-decoration: none;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+
+  #page1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fd7d15;
+    
+  }
+
+  #firstline{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    color: white;
+    font-size: 70px;
+
+  }
+
+  #typed {
+    position: absolute;
+    bottom:175px;
+    left:170px;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing;
+    animation-duration: 8s;
+    animation-timing-function: steps(100, end);
+    animation-fill-mode: forwards;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fd7d15;
+  }
+  
+  @keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+    
+  }
+
+  section {
+    margin-bottom: 30px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fd7d15;
+    text-align: center;
+
+  }
+
+  #about{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Rockwell';
+
+  }
+
+  #ul-skills-list{
+    list-style: none;
+    
+  }
+
+  #nested-skills-list{
+    font-style: italic;
+    color: #eeeeee;
+    display: inline-block;
+    text-align: center;
+    list-style-position: inside;
+    
+  }
+
+  #skills{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Rockwell';
+
+  }  
+  
+  /* Style the footer */
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
