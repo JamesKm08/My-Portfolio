@@ -6,7 +6,6 @@ body, ul {
     
   }
   
-  /* Style the header and navigation */
   header {
     background-color: black;
     color: #fff;
@@ -29,7 +28,6 @@ body, ul {
     text-decoration: none;
   }
   
-  /* Style the main content section */
   main {
     padding: 20px;
   }
@@ -112,7 +110,6 @@ body, ul {
 
   }  
   
-  /* Style the footer */
   footer {
     background-color: black;
     color: #fff;
