@@ -88,6 +88,13 @@ body, ul {
     font-family: 'Rockwell';
 
   }
+  #education{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Comic sans';
+    font-size: 20px;
+
+  }
 
   #ul-list{
     list-style: none;
@@ -107,10 +114,26 @@ body, ul {
 
   #skills{
     text-align: center;
-    color: whitesmoke;
-    font-family: 'Rockwell';
+    font-family: 'Comic sans';
+    font-size: 20px;
     list-style: none;
-  }  
+  }
+
+  #passions{
+    text-align: center;
+    font-family: 'Comic sans';
+    font-size: 20px;
+    list-style: none;
+  }
+
+  #contact{
+    text-align: right;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 22px;
+
+  }
+
   
   footer {
     background-color: black;
